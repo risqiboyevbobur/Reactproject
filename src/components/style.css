@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  display: flex;
+  justify-content: end;
+}
+.list_item {
+  list-style: none;
+  padding: 20px;
+  color: rgb(42, 240, 224);
+}
+nav {
+  background: gray;
+}
+img {
+  width: 100px;
+  height: 600px;
+}
+.image{
+  height: 300px;
+ 
+}
+.active{
+  margin-bottom: 100px;
+}
+body{
+  background: url(./img/pexels-pok-rie-2049422.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.section01{
+  padding-top: 18px;background: #c1baba;
+
+
+}
+.idea{
+  text-align: center;
+}
+input{
+  padding: 20px 100px;
+  border-radius: 30px;
+  border: #FFFFFF;
+  
+}
+.section9{
+  margin: auto;
+}
+.buttonfor{
+  background: #FFFFFF;
+border: 1px solid #C5C5C5;
+border-radius: 200px;
+padding: 12px 22px;
+}
+.buttonpixel{
+  background: #FFFFFF;
+border: 1px solid #C5C5C5;
+border-radius: 200px;
+padding: 12px 22px;
+
+}
+ 
+.welcome{
+  
+ background: rgb(165, 155, 155);
+  margin: auto;
+  font-size: larger;
+  color: blue;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  margin-left: 20px;
+}
